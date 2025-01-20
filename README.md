@@ -46,7 +46,7 @@ In the future, we can leverage additional data analysis techniques to further re
 To understand the performance of different product offerings across various store types, we analyzed historical sales data and calculated the percentage contribution of each product category to total sales. The following table summarizes the findings:
 
 |Store Type|Adv GnG (Pizza)|Bean to Cup|Chicken|Swirl World|DoorDash|
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|
 |EDO|46%|22%|23%|9%|0%|
 |5.5k|56%|28%|11%|2%|3%|
 |Travel Center|41%|24%|23%|9%|2%|
