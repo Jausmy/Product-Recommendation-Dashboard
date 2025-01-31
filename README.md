@@ -101,7 +101,7 @@ Swirl World (Frozen Yogurt)
 
 ## Potential Impact of Recommendations
 By implementing these recommendations, the company can anticipate the following positive outcomes:
--	Increased Sales: Optimizing product offerings to align with customer preferences and demand has the potential to increase overall sales by 10-15% within the first year of operation in the new locations.
+-	Increased Sales: Optimizing product offerings to align with customer preferences and demand has the potential to increase overall sales by 20% within the first year of operation in the new locations.
 -	Improved Customer Satisfaction: Catering to diverse customer needs and preferences through tailored product offerings and convenient service options can lead to enhanced customer satisfaction and repeat business.
 -	Increased Operational Efficiency: Streamlining product offerings based on data-driven insights can optimize inventory management, reduce waste, and improve overall operational efficiency.
 
