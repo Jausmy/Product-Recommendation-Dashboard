@@ -4,10 +4,9 @@
 In today's competitive market, understanding customer preferences and tailoring product offerings is crucial for success, especially when expanding into new regions. This report provides a comprehensive analysis of historical sales data to guide the selection of food and beverage options for our new store locations. By leveraging insights from past performance and considering local market dynamics, we can maximize sales, enhance customer satisfaction, and drive business growth in these new markets.
 
 ## Executive Summary
-This analysis was conducted to provide data-driven recommendations to Senior Leadership for maximizing sales and customer satisfaction in our new stores. By examining historical sales data from existing stores across different states and store types, we identified key factors that influence product performance, such as store type and customer preferences. A key insight from the analysis is that Adv GnG (Pizza) consistently emerged as the top-performing product category across all store types, indicating its potential as a key revenue driver (see Analysis of Product Performance by Store Type)1. Based on the analysis, we recommend prioritizing Adv GnG (Pizza) and Bean to Cup (Coffee) offerings across all store types, while also tailoring specific product strategies to each location based on observed trends and potential customer demand. By implementing these recommendations, the company can potentially increase overall sales by 10-15% within the first year (see Potential Impact of Recommendations), improve customer satisfaction, and increase operational efficiency.
+This analysis was conducted to provide data-driven recommendations to Senior Leadership for maximizing sales and customer satisfaction in our new stores. By examining historical sales data from existing stores across different states and store types, we identified key factors that influence product performance, such as store type and customer preferences. A key insight from the analysis is that Adv GnG (Pizza) consistently emerged as the top-performing product category across all store types, indicating its potential as a key revenue driver [(see Analysis of Product Performance by Store Type)](#Analysis-of-Product-Performance-by-Store-Type). Based on the analysis, we recommend prioritizing Adv GnG (Pizza) and Bean to Cup (Coffee) offerings across all store types, while also tailoring specific product strategies to each location based on observed trends and potential customer demand. By implementing these recommendations, the company can potentially increase overall sales by 20% within the first year [(see Potential Impact of Recommendations)](#Potential-Impact-of-Recommendations), improve customer satisfaction, and increase operational efficiency.
 
 ## Methodology
-
 ### Data Sources
 The primary data source for this analysis is the sales data, which provides historical data on existing stores across different states and store types. This data includes information on:
 -	Store Location and Type
@@ -29,17 +28,16 @@ To ensure data accuracy and consistency, the following data cleaning steps were 
 -	Removed total metric columns, retaining only the average metric columns.
 
 ### Data Exploration
-Initial data exploration involved familiarizing ourselves with the dataset and identifying key variables. This included examining the distribution of sales across different product categories and store types, as well as identifying potential correlations between customer traffic and product performance1.
+Initial data exploration involved familiarizing ourselves with the dataset and identifying key variables. This included examining the distribution of sales across different product categories and store types, as well as identifying potential correlations between customer traffic and product performance.
 
 ### Data Analysis Techniques
 The following data analysis techniques were employed:
 -	Performance Analysis: We calculated the percentage contribution of each product offering to total sales for each store type to identify top-performing products and potential growth opportunities. This involved aggregating sales data by product category and store type and then calculating the percentage contribution of each category to the total sales within each store type.
--	Correlation Analysis: We calculated the correlation between inside guest count and average sales for each product offering to identify potential relationships between customer traffic and product demand. This involved using statistical methods to measure the strength and direction of the linear relationship between these two variables2.
--	Diagnostic Analysis: This analysis was used to identify the root cause of why DoorDash had low sales. By examining various factors such as store location, customer demographics, and order patterns, we aimed to understand the underlying reasons for the low performance of DoorDash3.
+-	Diagnostic Analysis: This analysis was used to identify the root cause of why DoorDash had low sales. By examining various factors such as store location, customer demographics, and order patterns, we aimed to understand the underlying reasons for the low performance of DoorDash.
 
 ## Future Considerations for Data Analysis
 In the future, we can leverage additional data analysis techniques to further refine our understanding of customer preferences and optimize product offerings. These techniques include:
--	Text Analysis: This technique can be used to analyze customer feedback and reviews to identify key themes and sentiments related to different product offerings. By extracting insights from unstructured data such as customer comments and online reviews, we can gain a deeper understanding of customer preferences and identify areas for improvement.
+-	Feedback Analysis: This technique can be used to analyze customer feedback and reviews to identify key themes and sentiments related to different product offerings. By extracting insights from unstructured data such as customer comments and online reviews, we can gain a deeper understanding of customer preferences and identify areas for improvement.
 -	Sentiment Analysis: This method relies on natural language processing to determine whether the unstructured data represents positive or negative emotions. By analyzing customer sentiment towards different products and services, we can identify areas where customer satisfaction is high or low and make data-driven decisions to improve the overall customer experience.
 
 ## Analysis of Product Performance by Store Type
@@ -54,7 +52,7 @@ To understand the performance of different product offerings across various stor
 ### EDO Stores
 -	Adv GnG (Pizza) emerged as the highest performing product category in EDO stores, contributing 46% of total sales. This suggests a strong customer preference for pizza in this store type.
 -	Bean to Cup (Coffee) and Chicken also demonstrated strong performance, with 22% and 23% of sales respectively. This indicates a demand for both convenient beverage options and food items.
--	DoorDash had the lowest percentage of sales (0%), suggesting a potential area for improvement or a lack of customer awareness/demand for this service in EDO stores3.
+-	DoorDash had the lowest percentage of sales (0%), suggesting a potential area for improvement or a lack of customer awareness/demand for this service in EDO stores.
 
 ### 5.5k Stores
 -	Similar to EDO stores, Adv GnG (Pizza) dominated sales in 5.5k stores, accounting for 56% of total sales. This reinforces the popularity of pizza across different store types.
@@ -68,15 +66,16 @@ To understand the performance of different product offerings across various stor
 
 ## Correlation Analysis
 A correlation analysis was conducted to understand the relationship between customer traffic (Inside Guest Count) and sales for each product offering. The analysis revealed the following:
--	Strong positive correlation: A strong positive correlation was observed between Inside Guest Count and sales of Adv GnG (Pizza), Bean to Cup, and Chicken across all store types. This suggests that higher customer traffic generally translates to increased sales for these products. This relationship is visualized in the scatter plots below, which show a clear upward trend indicating a positive correlation between customer traffic and sales for these product categories.
--	Weaker correlation: A weaker correlation was observed for Frozen Yogurt and DoorDash. This indicates that sales of these products may be less influenced by overall customer traffic and could be driven by other factors such as seasonality, promotions, or specific customer preferences. This weaker correlation is evident in the scatter plots below, which show a less pronounced trend compared to the plots for Adv GnG (Pizza), Bean to Cup, and Chicken.
-While customer traffic is a significant driver of sales for Adv GnG (Pizza), Bean to Cup, and Chicken, other factors may be influencing the sales of Frozen Yogurt and DoorDash. This suggests the need for targeted strategies to boost the performance of these products1.
-(Insert visualizations: Scatter plots showing the correlation between Inside Guest Count and sales for each product offering)
+-	Strong positive correlation: A strong positive correlation was observed between Inside Guest Count and sales of Adv GnG (Pizza), Bean to Cup, and Chicken across all store types. This suggests that higher customer traffic generally translates to increased sales for these products.
+-	Weaker correlation: A weaker correlation was observed for Frozen Yogurt and DoorDash. This indicates that sales of these products may be less influenced by overall customer traffic and could be driven by other factors such as seasonality, promotions, or specific customer preferences. 
+
+While customer traffic is a significant driver of sales for Adv GnG (Pizza), Bean to Cup, and Chicken, other factors may be influencing the sales of Frozen Yogurt and DoorDash. This suggests the need for targeted strategies to boost the performance of these products.
 
 ## General Recommendations
 Based on the analysis of historical data and observed trends, the following general product strategies are recommended for all new store locations:
 -	Prioritize Adv GnG (Pizza): Adv GnG (Pizza) consistently emerged as a top performer across all store types. Offer a variety of pizza options to cater to diverse tastes, with an emphasis on quality ingredients and efficient service.
 -	Focus on Bean to Cup (Coffee): Bean to Cup (Coffee) also showed strong performance across all store types. Ensure consistent quality, efficient service, and a variety of coffee options to meet customer preferences.
+
 ### Recommendations for New Store Locations by Product Category
 Adv GnG (Pizza):
 -	Travel Center – St. George, SC & Cleveland, OH: Offer a variety of pizza options with an emphasis on quick service and easy-to-eat choices for travelers on the go. Consider offering combo meals or value deals to incentivize purchases.
@@ -102,7 +101,7 @@ Swirl World (Frozen Yogurt)
 
 ## Potential Impact of Recommendations
 By implementing these recommendations, the company can anticipate the following positive outcomes:
--	Increased Sales: Optimizing product offerings to align with customer preferences and demand has the potential to increase overall sales by 10-15% within the first year of operation in the new locations1.
+-	Increased Sales: Optimizing product offerings to align with customer preferences and demand has the potential to increase overall sales by 10-15% within the first year of operation in the new locations.
 -	Improved Customer Satisfaction: Catering to diverse customer needs and preferences through tailored product offerings and convenient service options can lead to enhanced customer satisfaction and repeat business.
 -	Increased Operational Efficiency: Streamlining product offerings based on data-driven insights can optimize inventory management, reduce waste, and improve overall operational efficiency.
 
